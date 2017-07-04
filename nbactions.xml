@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clean test -Dwebdriver.base.url=http://www.google.com</actionName>
+            <displayName>clean test -Dwebdriver.base.url=http://www.google.com</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>test</goal>
+                <goal>-Dwebdriver.base.url=http://www.google.com</goal>
+            </goals>
+        </action>
+    </actions>
